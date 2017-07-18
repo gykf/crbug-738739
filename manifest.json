@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "crbug-738739 demonstration",
+  "version": "1.0",
+  "minimum_chrome_version": "60",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "background": {
+    "scripts": [
+      "events.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon_16.png",
+      "128": "icon_128.png"
+    },
+    "default_title": "crbug-738739"
+  }
+}
